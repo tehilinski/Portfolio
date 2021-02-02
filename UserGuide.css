@@ -1,0 +1,90 @@
+body { font-size: 10pt; width="95%" }
+
+h1 {
+  font-family: Liberation Sans, DejaVu Sans, Droid Sans, Caladea, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 16pt;
+  text-align: left;
+  color: #008080;
+  background-color: #F0F0F0;
+  margin-top: 3%;
+  margin-bottom: 1.5%;
+}
+
+h1.title {
+  font-size: 16pt;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  background-color: white;
+}
+
+h2 {
+  font-family: Liberation Sans, DejaVu Sans, Droid Sans, Caladea, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14pt;
+  text-align: left;
+  color: #008080;
+  background-color: white;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 3%;
+  margin-bottom: 1.5%;
+}
+
+h3 {
+  font-family: serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13pt;
+  text-align: left;
+}
+
+h4 {
+  font-family: serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11pt;
+  text-align: left;
+}
+
+p { font-size: 11pt; }
+li { font-size: 11pt; }
+ol li {
+  margin-left: 0.5em;
+  margin-bottom: 0.75%;
+}
+address { font-style: italic; text-align: center; }
+pre {
+  font-sze: 10pt;
+  font-family: Liberation Mono, DejaVu Sans Mono, Droid Mono, Cousine, monospace;
+  margin-left: +1em;
+}
+table {
+  font-sze: 10pt;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+a { font-size: 11pt; }
+a:link, a:visited { color: #0000CA; }
+a:hover, a:active { color: #A52A2A; }
+
+.col2 {
+    columns: 2 50%;         /* number of columns and width */
+    -webkit-columns: 2 50%; /* chrome, safari */
+    -moz-columns: 2 50%;    /* firefox */
+}
+.col3 {
+    columns: 3 33%;
+    -webkit-columns: 3 33%;
+    -moz-columns: 3 33%;
+}
+
+#TOC ul li { list-style-type: none; }
+
+#TOC:before {
+    content: 'Contents';
+    text-indent: -1.5em; text-align: left; font-size: 16pt; font-weight: bold;
+}
